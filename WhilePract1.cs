@@ -11,12 +11,13 @@ int n=int.Parse(Console.ReadLine());
 Console.Write("sum is 1");
 
 int i=1;
-int sum=0;
+int sum=1;
 while(i<n)
 {
 
-sum=sum+i;
+
 i++;
+sum=sum+i;
 Console.Write("+"+i);
 
 }
